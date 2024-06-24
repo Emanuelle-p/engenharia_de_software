@@ -14,39 +14,41 @@ Desenvolver um manual sobre o GitHub, abrangendo desde conceitos básicos até f
 O manual será dividido em seções, cada uma abordando um aspecto específico do GitHub. As seções incluirão explicações teóricas, exemplos práticos e exercícios para fixação do conteúdo.
 #### Seções do Manual
 
-**1. Introdução ao GitHub**
-**O que é GitHub?**
-História e evolução do GitHub
-Principais funcionalidades e benefícios
+**1. Introdução ao GitHub** <br>
+**O que é GitHub?** <br>
+GitHub é uma plataforma de em nuvem de compartilhamento e desenvolvimento de códigos e projetos. <br>
+
+* **História e evolução do GitHub** <br>
+**Principais funcionalidades e benefícios** <br>
 
 **2. Configuração Inicial**
-Criando uma conta no GitHub
-Instalando o Git e configurando no GitHub
-Primeiros passos: criando e clonando repositórios
+* Criando uma conta no GitHub
+* Instalando o Git e configurando no GitHub
+* Primeiros passos: criando e clonando repositórios
 
 **3. Comandos Básicos do Git**
-Estrutura de um repositório Git
-Iniciando um repositório
-Principais comandos: git init, git add, git commit, git push, git pull
-Gerenciamento de branches
+* Estrutura de um repositório Git
+* Iniciando um repositório
+* Principais comandos: git init, git add, git commit, git push, git pull
+* Gerenciamento de branches
 
 **4. Trabalho Colaborativo**
-Clonando e forkeando repositórios
-Pull requests: como criar e gerenciar
-Revisão de código e merge de pull requests
-Resolvendo conflitos
+* Clonando e forkeando repositórios
+* Pull requests: como criar e gerenciar
+* Revisão de código e merge de pull requests
+* Resolvendo conflitos
 
 **5. Funcionalidades Avançadas**
-GitHub Actions: automatizando fluxos de trabalho
-Issues e Projects: gerenciamento de tarefas e projetos
-GitHub Pages: criando sites estáticos com GitHub
-Integrações e APIs
+* GitHub Actions: automatizando fluxos de trabalho
+* Issues e Projects: gerenciamento de tarefas e projetos
+* GitHub Pages: criando sites estáticos com GitHub
+* Integrações e APIs
 
 **6. Boas Práticas e Dicas**
-Escrevendo bons commits e mensagens
-Estrutura organizacional de repositórios
-Segurança e permissões
-Uso de templates e arquivos de configuração (.gitignore, README.md)
+* Escrevendo bons commits e mensagens
+* Estrutura organizacional de repositórios
+* Segurança e permissões
+* Uso de templates e arquivos de configuração (.gitignore, README.md)
 
 #### Metodologia
 * **Pesquisa e Referências:** Utilização de documentação oficial do GitHub, tutoriais, e livros especializados. </br>
