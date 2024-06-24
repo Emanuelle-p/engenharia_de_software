@@ -19,7 +19,8 @@ O manual será dividido em seções, cada uma abordando um aspecto específico d
 GitHub é uma plataforma de em nuvem de compartilhamento e desenvolvimento de códigos e projetos. <br>
 
 * **História e evolução do GitHub** <br>
-**Principais funcionalidades e benefícios** <br>
+
+* **Principais funcionalidades e benefícios** <br>
 
 **2. Configuração Inicial**
 * Criando uma conta no GitHub
@@ -68,6 +69,9 @@ A avaliação será baseada em:
 * **Praticidade:** Qualidade e relevância dos exemplos e exercícios propostos. </br>
 * **Precisão Técnica:** Correção e atualização das informações apresentadas. </br>
 
+#### Referências
+
+
 <a name="questao2"></a>
 # Questão 2
 
@@ -114,3 +118,4 @@ Utilizando o teste estrutural (também conhecido como teste de caixa branca), re
 **f)** Descreva um conjunto mínimo de casos de teste que garantam a cobertura de todas as condições lógicas. </br>
 **g)** Descreva os casos de teste usando análise de valor limite considerando que um número primo é aquele que é maior que 1 é divisível apenas por 1 e por ele mesmo. </br>
 
+#### Referências
