@@ -7,12 +7,12 @@
 
 **Assunto:** Gerência de Configuração de Software
 
-#### Objetivo
+### Objetivo
 Desenvolver um manual sobre o GitHub, abrangendo desde conceitos básicos até funcionalidades avançadas. Este manual servirá como uma referência prática para usuários iniciantes e intermediários, facilitando o uso da plataforma GitHub para gerenciamento de repositórios e colaboração em projetos.
 
-#### Estrutura do Manual
+### Estrutura do Manual
 O manual será dividido em seções, cada uma abordando um aspecto específico do GitHub. As seções incluirão explicações teóricas, exemplos práticos e exercícios para fixação do conteúdo.
-#### Seções do Manual
+### Seções do Manual
 
 **1. Introdução ao GitHub** <br>
 **O que é GitHub?** <br>
@@ -51,25 +51,25 @@ GitHub é uma plataforma de em nuvem de compartilhamento e desenvolvimento de c�
 * Segurança e permissões
 * Uso de templates e arquivos de configuração (.gitignore, README.md)
 
-#### Metodologia
+### Metodologia
 * **Pesquisa e Referências:** Utilização de documentação oficial do GitHub, tutoriais, e livros especializados. </br>
 * **Exemplos Práticos:** Inclusão de exemplos reais de uso, com explicações passo a passo. </br>
 * **Exercícios:** Atividades práticas para reforçar o aprendizado. </br>
 * **Recursos Visuais:** Capturas de tela, diagramas e fluxos para facilitar a compreensão. </br>
 
-#### Ferramentas
+### Ferramentas
 * GitHub (obrigatório para prática)
 * Editor de texto (VSCode, Sublime Text, etc.)
 * Terminal ou Git Bash
 
-#### Avaliação
+### Avaliação
 A avaliação será baseada em:
 * **Clareza e Organização:** Estrutura lógica e clareza na apresentação das informações. </br>
 * **Completude:** Cobertura abrangente dos tópicos necessários. </br>
 * **Praticidade:** Qualidade e relevância dos exemplos e exercícios propostos. </br>
 * **Precisão Técnica:** Correção e atualização das informações apresentadas. </br>
 
-#### Referências
+### Referências
 
 
 <a name="questao2"></a>
@@ -118,4 +118,4 @@ Utilizando o teste estrutural (também conhecido como teste de caixa branca), re
 **f)** Descreva um conjunto mínimo de casos de teste que garantam a cobertura de todas as condições lógicas. </br>
 **g)** Descreva os casos de teste usando análise de valor limite considerando que um número primo é aquele que é maior que 1 é divisível apenas por 1 e por ele mesmo. </br>
 
-#### Referências
+### Referências
