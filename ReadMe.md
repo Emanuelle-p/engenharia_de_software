@@ -19,6 +19,8 @@ O manual será dividido em seções, cada uma abordando um aspecto específico d
 GitHub é uma plataforma de em nuvem de compartilhamento e desenvolvimento de códigos e projetos. <br>
 
 * **História e evolução do GitHub** <br>
+Desenvolvido pela empresa GitHub, Inc., contando com os membros Chris Wanstrath, J. Hyett, Tom Preston-Werner e Scott Chacon a partir de fevereiro de 2008. Em 2009 contava com 46 mil repositórios públicos, sendo hoje ... repositórios e em torno de ... milhões de usuários. <br>
+Em 2018 a plataforma passou por um ataque DDoS, paralizando seus serviços além de ter sido compro pela Microsoft, por US$ 7,5 bilhões em ações. <br>
 
 * **Principais funcionalidades e benefícios** <br>
 
