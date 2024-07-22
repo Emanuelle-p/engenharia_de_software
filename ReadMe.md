@@ -56,9 +56,95 @@ O GitHub oferece dentre várias, as seguintes funcionalidades aos repositórios 
   - **Comunidade:** plataforma colaborativa que permite interações entre desenvolvedores de todo o mundo. Promove o compartilhamento de conhecimento, contribuindo para a inovação e o aprendizado contínuo.
 
 **2. Configuração Inicial**
-* Criando uma conta no GitHub
-* Instalando o Git e configurando no GitHub
-* Primeiros passos: criando e clonando repositórios
+* **Criando uma conta no GitHub**
+  1. Acesse a página https://github.com/
+  2. Clique em **Inscreva-se**.
+  3. Siga os prompts para criar sua conta.
+  4. Verifique o seu e-mail.
+   
+  Em caso de dúvidas, [clique aqui](https://docs.github.com/pt/get-started/start-your-journey/creating-an-account-on-github).
+     
+* **Instalando o Git e configurando no GitHub** </br>
+
+  Há diversas formas de instalar o Git, a depender do sistema operacional da máquina e da ferramenta a ser utilizada. Siga o passo a passo para instalar o Git no **Windows** e no **Linux**. </br>
+  Para outros casos, [clique aqui para mais informações na documentação](https://github.com/git-guides/install-git). </br>
+  ##### Para Windows:
+  Vá ao [site oficial do Git](https://git-scm.com/download/win) e baixe o instalador da última versão para Windows, então execute o instalador. Você pode verificar a instalação através do seguinte comando no terminal (Prompt de comando ou Windows PowerShell):
+  ```
+  git --version
+  ```
+
+  ##### Para Linux:
+  No seu terminal de comando rode os seguintes comandos para atualizar a lista de pacotes disponíveis para instalação, instalar o Git e verificar a versão instalada.
+  ```
+  sudo apt-get update
+  sudo apt-get install git-all 
+  git --version 
+  ```
+
+  Após a instalação, tanto no Windows quanto no Linux pode-se configurar o Git da seguinte forma:
+  1. No terminal, rode o código a seguir para configurar o nome de usuário e e-mail:
+  ```
+  git config --global user.name <Seu nome>
+  git config --global user.email <seu-email@exemplo.com>
+  ``` 
+  2. Verifique se as configurações foram aplicadas corretamente:
+  ```
+  git config --list
+  ```
+
+  Depois disso é possível autenticar-se no GitHub através do Git usando HTTPS ou SSH.
+  #### Usando HTTP:
+  Conforme a documentação do GitHub:
+  > Se você estiver clonando repositórios do GitHub usando HTTPS, recomendamos que use o GitHub CLI ou o Git Credential Manager (GCM) para lembrar suas credenciais. </br>
+
+  Para usar o **GitHub CLI**: </br>
+  1. [Instale](https://github.com/cli/cli#installation) o GitHub CLI
+  2. No terminal, digite ```gh auth login```
+  3. Quando questionado sobre a sua preferência de protocolo no Git, selecione ```HTTP```.
+  4. Quando questionado se gostaria de autenticar no Git através das suas credenciais dp GitHub, digite ```Y```.
+
+  Para usar o **Git Credential Manager (GCM)**: </br>
+  A instalação do Git inclui o GCM, assim no próximo clone de repositório usando HTTPS, o Git solicitará o login no navegador. Após isso, suas credenciais serão armazenadas e serão utilizadas a cada nova clonagem HTTPS.
+
+  #### Usando SSH:
+  1. Gere uma nova chave SSH digitando o seguinte comando no terminal:
+  ```
+  ssh-keygen -t ed25519 -C <seu-email@exemplo.com>
+  ```
+  2. Então digite uma frase secreta segura, conforme for requisitado.
+  3. Para adicionar sua chave SSH ao agente SSH, inicie-o em uma nova janela do PowerShell com privilégios de administrador:
+  ```
+  Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+  Start-Service ssh-agent
+  ```
+  4. Adicione sua chave privada SSH ao agente ssh: </br>
+     No Windows:
+     ```
+     ssh-add c:/Users/YOU/.ssh/id_ed25519
+     ```
+     No Linux:
+     ```
+     ssh-add ~/.ssh/id_ed25519
+     ```
+  
+  5. [Adicione a chave pública SSH à sua conta GitHub](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+  
+* **Primeiros passos: criando e clonando repositórios** </br>
+  Para clonar um repositório:
+  1. No GitHub, encontre o repositório que deseja clonar.
+  2. Clique em ```Code``` e copie a URL.
+  3. Vá para o diretório em que deseja clonar o repositório.
+  ```
+  cd diretório
+  ```
+  4. No terminal, digite:
+  ```
+  git clone <URL>
+  ```
+
+  Para criar um repositório :
+  
 
 **3. Comandos Básicos do Git**
 * Estrutura de um repositório Git
@@ -116,6 +202,8 @@ GITHUB. *About issues.* Disponível em: https://docs.github.com/pt/issues/tracki
 GITHUB. *About pull requests.* Disponível em: https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests. Acesso em 22 jul. 2024. </br>
 
 GITHUB. *About wikis.* Disponível em: https://docs.github.com/pt/communities/documenting-your-project-with-wikis/about-wikis. Acesso em 22 jul. 2024. </br>
+
+GITHUB. *Getting started with Git.* Disponível em: https://docs.github.com/en/get-started/getting-started-with-git. Acesso em 22 jul. 2024. </br>
 
 GITHUB. *Understanding GitHub Actions.* Disponível em: https://docs.github.com/pt/actions/learn-github-actions/understanding-github-actions. Acesso em 22 jul. 2024. </br>
 
