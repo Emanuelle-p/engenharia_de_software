@@ -1,4 +1,7 @@
-## Prova 2
+## Prova 2 - Engenharia de Software
+
+Nomes: Emanuelle Passos Martins, Matheus Carlos Lima e Silva </br>
+
 * [Questão 1](#questao1)
 * [Questão 2](#questao2)
 * [Questão 3](#questao3)
@@ -174,7 +177,7 @@ Utilizando o teste estrutural (também conhecido como teste de caixa branca), re
 
 <a name="questao3"></a>
 # Questão 3
-**Assunto:** Gerência de Projeto
+**Assunto:** Gerência de Projeto </br>
 **Entrega:** A resposta deverá ser entregue em formato digital PDF e disponibilizada em um repositório público em que o professor possui acesso. O link da resposta deverá ser enviado no SIGAA. </br>
 
 No contexto de gerenciamento de projetos de software, explique o processo de análise de riscos. </br>
