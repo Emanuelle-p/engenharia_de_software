@@ -30,7 +30,6 @@ O ano de 2018 foi o marco para a plataforma. Especificamente em junho de 2018 a 
 Infelizmente, graças à sua popularidade, o GitHub acabou se tornando também alvo de ataques. Em fevereiro de 2018 a plataforma passou por um ataque DDoS de 1,35 terabit por segundo, registrando um recorde. A consequência disso foi a paralização dos seus serviços por 6 minutos, conseguindo sair após isso graças à atenuação do ataque pelo serviço Akamai. Contudo, ainda em 2015 o GitHub já havia passado por outro ataque DDoS, com vários acessos a dois projetos que visavam contornar a censura estatal do governo chinês. <br>
 
 * **Principais funcionalidades e benefícios** <br>
-
 O GitHub oferece dentre várias, as seguintes funcionalidades aos repositórios do Git que ele hospeda:
   - **Controle de versão:** através do serviço Git cada atualização no projeto/código é salva, assim se torna possível controlar as versões dele, retornando para uma anterior se for necessário e colaborando com o trabalho de outros usuários.
     
