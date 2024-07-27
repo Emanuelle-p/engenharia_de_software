@@ -172,7 +172,31 @@ O GitHub oferece dentre várias, as seguintes funcionalidades aos repositórios 
   **git pull**: atualiza o repositório local com mudanças do repositório remoto </br>
   
 * Gerenciamento de branches </br>
+  Branches (ou em português, ramificações) são usados para desenvolver funcionalidades em ambientes isolados uns dos outros. A branch principal normalmente é chamada de **main** ou **master**. </br>
+  **Para criar uma nova branch:** </br>
+  ```
+  git branch <nome-da-branch>
+  ```
+
+  **Para mudar para outra branch:** </br>
+  ```
+  git checkout <nome-da-branch>
+  ```
   
+  **Para criar e mudar para uma nova branch:** </br>
+  ```
+  git checkout -b <nome-da-branch>
+  ```
+
+  **Para unir (merge) uma branch à branch atual:** </br>
+  ```
+  git merge <nome-da-branch>
+  ```
+  
+  **Para excluir uma branch:** </br>
+  ```
+  git branch -d <nome-da-branch>
+  ```
 
 **4. Trabalho Colaborativo**
 * Clonando e forkeando repositórios
