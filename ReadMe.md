@@ -213,7 +213,7 @@ git clone
 * **Pull requests: como criar e gerenciar** <br>
 Um pull request, como dito anteriormente, é uma forma de propor mudanças no repositório original. Para isso, crie um fork ou uma nova branch do repositório, faça as alterações desejadas, como por exemplo criação ou modificação de arquivos, direcione as alterações para o repositório remoto e faça os pull requests. Isso pode ser feito na página web do repositório no GitHub, clicando em ```Novo pull request``` e comparando as mudanças geradas. Para finalizar, clique em ```criar pull request```. <br>
 
-Para gerenciar pull requests, é possível revisar, comentar e fazer merge das mudanças diretamente na interface do GitHub. <br> <br>
+  Para gerenciar pull requests, é possível revisar, comentar e fazer merge das mudanças diretamente na interface do GitHub. <br> <br>
   
 * **Revisão de código e merge de pull requests** <br>
   Para revisar e comentar as mudanças propostas no pull request antes de aprová-las vá até o pull request no GitHub e indique os problemas e faça sugestões de pontos de melhorias. Para aprová-las, clique em ```Merge pull request``` e confirme o merge clicando em ```confirme merge```. <br> <br>
@@ -237,12 +237,46 @@ git commit   # se estiver fazendo merge
 # ou
 git rebase --continue   # se estiver fazendo rebase
 ```
+</br>
 
-**5. Funcionalidades Avançadas**
-* GitHub Actions: automatizando fluxos de trabalho
-* Issues e Projects: gerenciamento de tarefas e projetos
-* GitHub Pages: criando sites estáticos com GitHub
-* Integrações e APIs
+**5. Funcionalidades Avançadas** <br>
+* **GitHub Actions: automatizando fluxos de trabalho** <br>
+  Uma breve explicação sobre o que se trata foi dada acima. Para criar uma GitHub Action: <br>
+  1. Crie um arquivo de workflow no diretório .github/workflows do seu repositório. <br>
+  2. Defina os gatilhos (triggers) e ações (actions) no arquivo YAML. <br>
+  3. Commit e empurre o arquivo para o repositório. <br>
+     
+* **Issues e Projects: gerenciamento de tarefas e projetos** <br>
+  Uma breve explicação sobre o que é **Issue** foi dada acima. Para criar uma issue: <br>
+  1. Vá até a aba ```Issues``` do repositório no GitHub.
+  2. Clique em ```Nova Issue```.
+  3. Descreva a issue e clique em ```Submeter Nova Issue```.
+
+  Por outro lado, **projects** permite organizar issues e pull requests em quadros kanban. Para criar um projeto:
+  1. Vá até a aba ```Projects``` do repositório no GitHub.
+  2. Clique em ```Novo Project```.
+  3. Defina o nome e a descrição do projeto.
+  4. Adicione cartões representando issues e pull requests ao quadro.
+  
+* **GitHub Pages: criando sites estáticos com GitHub** <br>
+  Uma breve explicação sobre o que se trata foi dada acima. Para configurar uma GitHub Page: <br>
+  1. Crie uma branch chamada ```gh-pages``` ou use a branch ```main```.
+  2. Adicione o conteúdo do seu site estático ao repositório.
+  3. Acesse as configurações do repositório.
+  4. Em ```GitHub Pages```, selecione a branch para a fonte do site.
+  5. O site estará disponível em ```https://<seu-usuario>.github.io/<nome-do-repositório>/```.
+
+  
+* **Integrações e APIs** <br>
+  GitHub oferece várias integrações e APIs para expandir as funcionalidades do seu repositório. Você pode por exemplo usar a API REST do GitHub para automatizar tarefas e integrar GitHub a outras ferramentas. Para começar com a API: <br>
+  1. Vá até a [documentação da API do GitHub](https://docs.github.com/en/rest?apiVersion=2022-11-28).
+  2. Crie um token de acesso pessoal nas configurações da sua conta GitHub.
+  3. Use o token para autenticar suas solicitações à API.
+  
+  Exemplo de uso da API com curl:
+  ```
+  curl -H "Authorization: token <seu-token>" https://api.github.com/user/repos
+  ```
 
 **6. Boas Práticas e Dicas**
 * Escrevendo bons commits e mensagens
