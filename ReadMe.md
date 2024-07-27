@@ -143,8 +143,8 @@ O GitHub oferece dentre várias, as seguintes funcionalidades aos repositórios 
   git clone <URL>
   ```
 
-  Para criar um repositório:
-  Na [página web](https://github.com/) clique no símbolo ```+```, então em ```Novo repositório```. Indique o nome do repositótio e uma descrição (opcional). Escolha a visibilidade dele e se desejado, clique em ```Adicionar um arquivo README```, para criar um documento cujo objetivo é descrever o seu projeto. Por fim, clique em ```Criar repositório```.
+  Para criar um repositório Git no GitHub: </br>
+  Na [página web](https://github.com/) clique no símbolo ```+```, então em ```Novo repositório```. Indique o nome do repositótio e uma descrição (opcional). Escolha a visibilidade dele e se desejado, clique em ```Adicionar um arquivo README```, para criar um documento cujo objetivo é descrever o seu projeto. Por fim, clique em ```Criar repositório```. </br>
 
 **3. Comandos Básicos do Git** </br>
 * Estrutura de um repositório Git </br>
@@ -152,9 +152,8 @@ O GitHub oferece dentre várias, as seguintes funcionalidades aos repositórios 
   **.git (Pasta):** pasta oculta com os arquivos de configuração do repositório Git, tais como identificação do repositório remoto, histótico de commits locais, identificação  da Branch em uso, entre outros. </br>
   **.gitignore (Arquivo):** arquivo oculto com uma lista de parstas e arquivos que não podem ser versionados pelo Git, assim, eles devem ser ignorados a cada commit pelo Git. </br>
   **.gitkeep (Arquivo):** arquivo oculto que cria uma pasta vazia no repositório remoto para garantir que diretórios vazios sejam incluídos no repositório. </br>
-  **README.md (Arquivo):** página inicial do repositório no servidor Git que contém as principais informações sobre o projeto. </br>
-
- Sobre isso, o ```.``` (ponto) no inicio do nome dos arquivos e pastas os torna ocultos nos sistemas MAC OS e Linux, o que não se aplica para Windows. Já o ```md``` indica se tratar de um arquivo do tipo Markdown, que transforma o texto em um HTML válido. </br>
+  **README.md (Arquivo):** página inicial do repositório no servidor Git que contém as principais informações sobre o projeto. </br> </br>
+   Sobre isso, o ```.``` (ponto) no inicio do nome dos arquivos e pastas os torna ocultos nos sistemas MAC OS e Linux, o que não se aplica para Windows. Já o ```md``` indica se tratar de um arquivo do tipo Markdown, que transforma o texto em um HTML válido. </br>
   
 * Iniciando um repositório </br>
   Para iniciar um repositório no terminal de comando, navegue até o diretório do seu projeto e então execute o comando: </br>
@@ -172,7 +171,7 @@ O GitHub oferece dentre várias, as seguintes funcionalidades aos repositórios 
   **git pull**: atualiza o repositório local com mudanças do repositório remoto </br>
   
 * Gerenciamento de branches </br>
-  Branches (ou em português, ramificações) são usados para desenvolver funcionalidades em ambientes isolados uns dos outros. A branch principal normalmente é chamada de **main** ou **master**. </br>
+  Branches (ou em português, ramificações) são usados para desenvolver funcionalidades em ambientes isolados uns dos outros. A branch principal normalmente é chamada de **main** ou **master**. </br> </br>
   **Para criar uma nova branch:** </br>
   ```
   git branch <nome-da-branch>
