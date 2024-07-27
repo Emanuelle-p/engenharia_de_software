@@ -197,8 +197,16 @@ O GitHub oferece dentre várias, as seguintes funcionalidades aos repositórios 
   git branch -d <nome-da-branch>
   ```
 
-**4. Trabalho Colaborativo**
-* Clonando e forkeando repositórios
+**4. Trabalho Colaborativo** </br>
+* Clonando e forkeando repositórios </br>
+  Clonar um repositório cria uma cópia completa do repositório em seu ambiente local. Para clonar um repositório, como dito anteriormente, utilize o comando: <br>
+```
+git clone
+```
+  Por outro lado, Forkear (ou em português, bifurcar) um repositório cria uma cópia do repositório em sua conta do GitHub para que se faça modificações sem alterar o repositório original. Para isso, vá à página do repositório no GitHub e clique em ```Fork```, no canto superior direito. <br>
+  ![how to fork]([http://url/to/img.png](https://www.asmeurer.com/git-workflow/fork.png))
+  </br>
+  
 * Pull requests: como criar e gerenciar
 * Revisão de código e merge de pull requests
 * Resolvendo conflitos
