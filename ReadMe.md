@@ -278,11 +278,21 @@ git rebase --continue   # se estiver fazendo rebase
   curl -H "Authorization: token <seu-token>" https://api.github.com/user/repos
   ```
 
-**6. Boas Práticas e Dicas**
-* Escrevendo bons commits e mensagens
-* Estrutura organizacional de repositórios
-* Segurança e permissões
-* Uso de templates e arquivos de configuração (.gitignore, README.md)
+**6. Boas Práticas e Dicas** <br>
+* **Escrevendo bons commits e mensagens**: Dê preferência a mensagens de commit curtas e claras, com a qual seja possível entender o que mudou e por quê. Se necessário, adicione uma descrição mais detalhada após uma linha em branco.
+Exemplo:
+> Corrige erro de divisão por zero na calculadora. <br>
+> <br>
+> Anteriormente, a calculadora permitia que o usuário realizasse uma
+divisão por zero, resultando em uma exceção que causava o travamento
+do aplicativo. Este commit adiciona uma verificação para garantir que
+o divisor não seja zero antes de realizar a operação de divisão.
+
+* **Estrutura organizacional de repositórios**: deixe separado em pastas distintas códigos, documentação e outros recursos com diferentes funções e use nomes significativos que indiquem o conteúdo do arquivo ou pasta.
+
+* **Segurança e permissões**: No GitHub, use as configurações de permissões para definir quem pode ler, escrever e administrar o repositório; proteja branches importantes, como main ou master, para evitar que mudanças sejam feitas diretamente sem revisão; use chaves SSH para autenticação segura ao clonar e empurrar repositórios; e revogue tokens de acesso e chaves SSH desconhecidos.
+
+* **Uso de templates e arquivos de configuração (.gitignore, README.md)**: o .gitignore é um arquivo que especifica quais arquivos e diretórios devem ser ignorados pelo Git para se evitar o versionamento de arquivos desnecessários. Enquanto isso, o arquivo README.md é a principal documentação do repositório, como dito anteriormente, por isso ele deve fornecer uma visão geral e claro do projeto, instruções sobre instalação, uso e contribuição.
 
 ### Metodologia
 * **Pesquisa e Referências:** Utilização de documentação oficial do GitHub, tutoriais, e livros especializados. </br>
