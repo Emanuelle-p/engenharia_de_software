@@ -146,32 +146,32 @@ O GitHub oferece dentre várias, as seguintes funcionalidades aos repositórios 
   Para criar um repositório:
   Na [página web](https://github.com/) clique no símbolo ```+```, então em ```Novo repositório```. Indique o nome do repositótio e uma descrição (opcional). Escolha a visibilidade dele e se desejado, clique em ```Adicionar um arquivo README```, para criar um documento cujo objetivo é descrever o seu projeto. Por fim, clique em ```Criar repositório```.
 
-**3. Comandos Básicos do Git**
-* Estrutura de um repositório Git
-  De acordo com Oliveira (2019), um diretório .git possui a seguinte estrutura:
-  **.git (Pasta):** pasta oculta com os arquivos de configuração do repositório Git, tais como identificação do repositório remoto, histótico de commits locais, identificação  da Branch em uso, entre outros.
-  **.gitignore (Arquivo):** arquivo oculto com uma lista de parstas e arquivos que não podem ser versionados pelo Git, assim, eles devem ser ignorados a cada commit pelo Git.
-  **.gitkeep (Arquivo):** arquivo oculto que cria uma pasta vazia no repositório remoto para garantir que diretórios vazios sejam incluídos no repositório.
-  **README.md (Arquivo):** página inicial do repositório no servidor Git que contém as principais informações sobre o projeto.
+**3. Comandos Básicos do Git** </br>
+* Estrutura de um repositório Git </br>
+  De acordo com Oliveira (2019), um diretório .git possui a seguinte estrutura: </br>
+  **.git (Pasta):** pasta oculta com os arquivos de configuração do repositório Git, tais como identificação do repositório remoto, histótico de commits locais, identificação  da Branch em uso, entre outros. </br>
+  **.gitignore (Arquivo):** arquivo oculto com uma lista de parstas e arquivos que não podem ser versionados pelo Git, assim, eles devem ser ignorados a cada commit pelo Git. </br>
+  **.gitkeep (Arquivo):** arquivo oculto que cria uma pasta vazia no repositório remoto para garantir que diretórios vazios sejam incluídos no repositório. </br>
+  **README.md (Arquivo):** página inicial do repositório no servidor Git que contém as principais informações sobre o projeto. </br>
 
- Sobre isso, o ```.``` (ponto) no inicio do nome dos arquivos e pastas os torna ocultos nos sistemas MAC OS e Linux, o que não se aplica para Windows. Já o ```md``` indica se tratar de um arquivo do tipo Markdown, que transforma o texto em um HTML válido.
+ Sobre isso, o ```.``` (ponto) no inicio do nome dos arquivos e pastas os torna ocultos nos sistemas MAC OS e Linux, o que não se aplica para Windows. Já o ```md``` indica se tratar de um arquivo do tipo Markdown, que transforma o texto em um HTML válido. </br>
   
-* Iniciando um repositório
-  Para iniciar um repositório no terminal de comando, navegue até o diretório do seu projeto e então execute o comando:
+* Iniciando um repositório </br>
+  Para iniciar um repositório no terminal de comando, navegue até o diretório do seu projeto e então execute o comando: </br>
   ```
   git init
   ```
 
-  Isso criará um novo repositório Git no diretório atual.
+  Isso criará um novo repositório Git no diretório atual. </br>
   
-* Principais comandos: git init, git add, git commit, git push, git pull
-  **git init**: inicializa um novo repositório Git no diretório atual
-  **git add**: adiciona arquivos à uma área de preparação (staging area), preparando-os para serem comitados
-  **git commit**: registra as mudanças na área de preparação com uma mensagem descritiva
-  **git push**: envia os commits locais para um repositório remoto, podendo ser o GitHub
-  **git pull**: atualiza o repositório local com mudanças do repositório remoto
+* Principais comandos: git init, git add, git commit, git push, git pull </br>
+  **git init**: inicializa um novo repositório Git no diretório atual </br>
+  **git add**: adiciona arquivos à uma área de preparação (staging area), preparando-os para serem comitados </br>
+  **git commit**: registra as mudanças na área de preparação com uma mensagem descritiva </br>
+  **git push**: envia os commits locais para um repositório remoto, podendo ser o GitHub </br>
+  **git pull**: atualiza o repositório local com mudanças do repositório remoto </br>
   
-* Gerenciamento de branches
+* Gerenciamento de branches </br>
   
 
 **4. Trabalho Colaborativo**
