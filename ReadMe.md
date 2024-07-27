@@ -143,14 +143,36 @@ O GitHub oferece dentre várias, as seguintes funcionalidades aos repositórios 
   git clone <URL>
   ```
 
-  Para criar um repositório :
-  
+  Para criar um repositório:
+  Na [página web](https://github.com/) clique no símbolo ```+```, então em ```Novo repositório```. Indique o nome do repositótio e uma descrição (opcional). Escolha a visibilidade dele e se desejado, clique em ```Adicionar um arquivo README```, para criar um documento cujo objetivo é descrever o seu projeto. Por fim, clique em ```Criar repositório```.
 
 **3. Comandos Básicos do Git**
 * Estrutura de um repositório Git
+  De acordo com Oliveira (2019), um diretório .git possui a seguinte estrutura:
+  **.git (Pasta):** pasta oculta com os arquivos de configuração do repositório Git, tais como identificação do repositório remoto, histótico de commits locais, identificação  da Branch em uso, entre outros.
+  **.gitignore (Arquivo):** arquivo oculto com uma lista de parstas e arquivos que não podem ser versionados pelo Git, assim, eles devem ser ignorados a cada commit pelo Git.
+  **.gitkeep (Arquivo):** arquivo oculto que cria uma pasta vazia no repositório remoto para garantir que diretórios vazios sejam incluídos no repositório.
+  **README.md (Arquivo):** página inicial do repositório no servidor Git que contém as principais informações sobre o projeto.
+
+ Sobre isso, o ```.``` (ponto) no inicio do nome dos arquivos e pastas os torna ocultos nos sistemas MAC OS e Linux, o que não se aplica para Windows. Já o ```md``` indica se tratar de um arquivo do tipo Markdown, que transforma o texto em um HTML válido.
+  
 * Iniciando um repositório
+  Para iniciar um repositório no terminal de comando, navegue até o diretório do seu projeto e então execute o comando:
+  ```
+  git init
+  ```
+
+  Isso criará um novo repositório Git no diretório atual.
+  
 * Principais comandos: git init, git add, git commit, git push, git pull
+  **git init**: inicializa um novo repositório Git no diretório atual
+  **git add**: adiciona arquivos à uma área de preparação (staging area), preparando-os para serem comitados
+  **git commit**: registra as mudanças na área de preparação com uma mensagem descritiva
+  **git push**: envia os commits locais para um repositório remoto, podendo ser o GitHub
+  **git pull**: atualiza o repositório local com mudanças do repositório remoto
+  
 * Gerenciamento de branches
+  
 
 **4. Trabalho Colaborativo**
 * Clonando e forkeando repositórios
@@ -212,6 +234,8 @@ GITHUB. *Understanding GitHub Actions.* Disponível em: https://docs.github.com/
 TASHIA, T. *15 most popular GitHub repositories every developer should know.* Disponível em: https://www.hostinger.com/tutorials/most-popular-github-repos#:~:text=Copied!,of%20over%20100%20million%20developers. Acesso em 22 jul. 2024. </br>
 
 LOUZADA, Vinícius. O que é Git e GitHub: os primeiros passos nessas ferramentas. Disponível em: https://www.alura.com.br/artigos/o-que-e-git-github?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=164068945139&hsa_ad=703934879696&hsa_src=g&hsa_tgt=dsa-1298415354460&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwhvi0BhA4EiwAX25uj4VT5XMEodsNLQth1VAAdqaCyYZeaFgoIP2wDtdORv5PCx14XvzXvxoCWrgQAvD_BwE#o-que-e-github?. Acesso em 22 jul. 2024. </br>
+
+OLIVEIRA, Marcos. Introdução ao Git: Estrutura básica. Medium, 2019. Disponível em: https://medium.com/@MarcosOlivDev/introdu%C3%A7%C3%A3o-ao-git-estrutura-b%C3%A1sica-88856a429f9e. Acesso em 27 jul. 2024. </br>
 
 VENTURA, Felipe. O maior ataque DDoS já registrado teve como alvo o GitHub. Disponível em: https://tecnoblog.net/noticias/maior-ataque-ddos-github/. Acesso em 22 jul. 2024. </br>
 
