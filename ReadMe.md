@@ -198,18 +198,45 @@ O GitHub oferece dentre várias, as seguintes funcionalidades aos repositórios 
   ```
 
 **4. Trabalho Colaborativo** </br>
-* Clonando e forkeando repositórios </br>
+* **Clonando e forkeando repositórios** </br>
   Clonar um repositório cria uma cópia completa do repositório em seu ambiente local. Para clonar um repositório, como dito anteriormente, utilize o comando: <br>
 ```
 git clone
 ```
   Por outro lado, Forkear (ou em português, bifurcar) um repositório cria uma cópia do repositório em sua conta do GitHub para que se faça modificações sem alterar o repositório original. Para isso, vá à página do repositório no GitHub e clique em ```Fork```, no canto superior direito. <br>
-  ![how to fork]([http://url/to/img.png](https://www.asmeurer.com/git-workflow/fork.png))
-  </br>
   
-* Pull requests: como criar e gerenciar
-* Revisão de código e merge de pull requests
-* Resolvendo conflitos
+  ![image](https://github.com/user-attachments/assets/c0fedd20-ea07-44fa-b15c-103be5d870b4)
+</br>
+
+  Após isso, na página contendo as informações sobre o fork haverão o nome e descrição padrões, contudo é possível alterar para melhor distinguí-los. Por fim, clique em ```criar fork```. <br>
+
+* **Pull requests: como criar e gerenciar** <br>
+Um pull request, como dito anteriormente, é uma forma de propor mudanças no repositório original. Para isso, crie um fork ou uma nova branch do repositório, faça as alterações desejadas, como por exemplo criação ou modificação de arquivos, direcione as alterações para o repositório remoto e faça os pull requests. Isso pode ser feito na página web do repositório no GitHub, clicando em ```Novo pull request``` e comparando as mudanças geradas. Para finalizar, clique em ```criar pull request```. <br>
+
+Para gerenciar pull requests, é possível revisar, comentar e fazer merge das mudanças diretamente na interface do GitHub. <br> <br>
+  
+* **Revisão de código e merge de pull requests** <br>
+  Para revisar e comentar as mudanças propostas no pull request antes de aprová-las vá até o pull request no GitHub e indique os problemas e faça sugestões de pontos de melhorias. Para aprová-las, clique em ```Merge pull request``` e confirme o merge clicando em ```confirme merge```. <br> <br>
+  
+* **Resolvendo conflitos** <br>
+Caso mais de um colaborador gere alterações em uma mesma parte do código ao mesmo tempo, conflitos podem ocorrer. Para resolver isso: <br>
+1. Faça o merge ou rebase da branch conflitante:
+```
+git merge <outra-branch>
+# ou
+git rebase <outra-branch>
+```
+2. Edite os arquivos conflitantes
+3. Adicione os arquivos resolvidos:
+```
+git add <arquivos-resolvidos>
+```
+4. Complete o merge ou rebase:
+```
+git commit   # se estiver fazendo merge
+# ou
+git rebase --continue   # se estiver fazendo rebase
+```
 
 **5. Funcionalidades Avançadas**
 * GitHub Actions: automatizando fluxos de trabalho
@@ -255,6 +282,8 @@ GITHUB. *About issues.* Disponível em: https://docs.github.com/pt/issues/tracki
 GITHUB. *About pull requests.* Disponível em: https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests. Acesso em 22 jul. 2024. </br>
 
 GITHUB. *About wikis.* Disponível em: https://docs.github.com/pt/communities/documenting-your-project-with-wikis/about-wikis. Acesso em 22 jul. 2024. </br>
+
+GITHUB. *Fork a repository*. Disponível em: https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo. Acesso em 27 jul. 2024. </br>
 
 GITHUB. *Getting started with Git.* Disponível em: https://docs.github.com/en/get-started/getting-started-with-git. Acesso em 22 jul. 2024. </br>
 
