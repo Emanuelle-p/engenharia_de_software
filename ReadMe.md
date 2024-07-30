@@ -382,12 +382,63 @@ int main() {
 Utilizando o teste estrutural (também conhecido como teste de caixa branca), responda o que se pede a seguir:
 
 **a)** Qual o grafo de fluxo de controle para este código? </br>
+
+![Cópia de PARTIDA (1)](https://github.com/user-attachments/assets/f3928547-788c-4ab6-8cae-690a951bc0c6)
+
 **b)** Quantos caminhos independentes existem neste código? </br>
+</br>Existem 4 caminhos independentes.</br></br>
 **c)** Liste todos os caminhos independentes identificados. </br>
+</br>Caminho 1: <5,6,23></br>
+Caminho 2: <5,9,15,21></br>
+Caminho 3: <5,9,10,9,10,11,23></br>
+Caminho 4: <5,9,10,9,15,21></br></br>
 **d)** Para cada caminho independente, descreva um caso de teste que garantiria a cobertura desse caminho. </br>
+</br>Caminho 1: **numero = 0**. 0 é menor que 1 em 5  **return false**</br>
+Caminho 2: **numero = 2**. 2 não entra no loop em 9 por 2*2 ser maior que 2 **return true**</br>
+Caminho 3: **numero = 29**. 29 completa o loop em 9 sem dar true na if condition **return true**</br>
+Caminho 4: **numero = 28**. 28 da true na if condition em 10 **return false**</br></br>
 **e)** Quais são as condições lógicas presentes no código? </br>
-**f)** Descreva um conjunto mínimo de casos de teste que garantam a cobertura de todas as condições lógicas. </br>
+</br>num <= 1</br></br>
+
+i * i <= num</br></br>
+
+num % i == 0</br></br>
+**f)** Descreva um conjunto mínimo de casos de teste que garantam a cobertura de todas as condições lógicas. </br></br>
+
+$~~~~~~~~$**num = 0**</br>
+  - num <= 1</br>
+  - Saída esperada: 0 não é primo</br></br>
+**num = 3**</br>
+  - num > 1, i * i <= num</br>
+  - Saída esperada: 3 é primo</br></br>
+**num = 29**</br>
+  - num > 1, i * i > num,num % i != 0</br>
+  - Saída esperada: 29 é primo</br></br>
+**num = 4**</br>
+  - num > 1, i * i <= num, num % i == 0</br>
+  - Saída esperada: 4 não é primo</br></br>
+
 **g)** Descreva os casos de teste usando análise de valor limite considerando que um número primo é aquele que é maior que 1 é divisível apenas por 1 e por ele mesmo. </br>
+
+$~~~~~~~~$**Valor Anterior ao Limite Inferior**</br>
+  - num = 1</br>
+  - Saída esperada: 1 não é primo</br></br>
+**Valor Limite Inferior**</br>
+  - num = 2</br>
+  - Saída esperada: 2 é primo</br></br>
+**Valor Primo Após Limite Inferior**</br>
+  - num = 3</br>
+  - Saída esperada: 3 é primo</br></br>
+**Valor Não Primo Após Limite Inferior**</br>
+  - num = 4</br>
+  - Saída esperada: 4 não é primo</br></br>
+**Valor Primo Alto (não temos limite superior)**</br>
+  - num = 97</br>
+  - Saída esperada: 97 é primo</br></br>
+**Valor Não Primo Após Primo Alto**</br>
+  - num = 98</br>
+  - Saída esperada: 98 não é primo</br></br>
+
 
 ### Referências
 
