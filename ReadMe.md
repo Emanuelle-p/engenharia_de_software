@@ -5,7 +5,6 @@ Nomes: Emanuelle Passos Martins, Matheus Carlos Lima e Silva </br>
 * [Questão 1](#questao1)
 * [Questão 2](#questao2)
 * [Questão 3](https://github.com/Emanuelle-p/engenharia_de_software/blob/main/quest%C3%A3o3prova2.pdf)
-* [Questão 4](https://github.com/Emanuelle-p/engenharia_de_software/blob/main/quest%C3%A3o4prova2.pdf)
 
 <a name="questao1"></a>
 # Questão 1
